@@ -7,7 +7,7 @@ import {
   SiAdobeaftereffects,
 } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
-import { RiNotionFill } from "react-icons/ri";
+import { SiNotion } from "react-icons/ri";
 
 function Techstack() {
   return (
@@ -28,7 +28,7 @@ function Techstack() {
         <SiAdobeaftereffects />
       </Col>
       <Col xs={6} md={2} className="tech-icons">
-        <RiNotionFill />
+        <SiNotion />
       </Col>
     </Row>
   );
