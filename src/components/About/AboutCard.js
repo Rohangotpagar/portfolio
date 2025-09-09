@@ -34,7 +34,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Design is not just how it looks and feels, but how it works!"{" "}
+            "Design is not just how it looks and feels,but how it works"{" "}
           </p>
           <footer className="blockquote-footer">Rohan</footer>
         </blockquote>
