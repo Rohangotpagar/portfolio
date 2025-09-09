@@ -16,8 +16,7 @@ function AboutCard() {
             Skilled in 3D modelling (Maya) and texturing with Substance Painter. I also create engaging UI/UX designs for intuitive player experiences. Proficient in video editing with After Effects and Premiere Pro. I love playing games, designing creative ideas, and travelling.
           </p>
           <br />
-          <p>
-            Apart from designing, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
