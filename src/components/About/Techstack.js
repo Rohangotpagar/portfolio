@@ -8,7 +8,6 @@ import {
   SiNotion,
 } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
-import { SiNotion } from "react-icons/si";
 
 function Techstack() {
   return (
