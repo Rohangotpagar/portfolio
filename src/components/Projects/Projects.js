@@ -25,21 +25,19 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="CodeStrike - Python Practice Adventure Game"
+              description="Code Strike is a high-action coding game where you fight, hack, and race through missions. Solve puzzles, battle enemies, and master real Python coding and AI skills — all while surviving intense combat, shooting sequences, and thrilling adventure."
+              demoLink="https://store.steampowered.com/app/3444170/CodeStrike__Python_Practice_Adventure_Game/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={bitsOfCode}      
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Assassin's Creed game environment"
+              description="I have successfully remastered an Assassin's Creed game environment using Autodesk Maya for 3D modeling, Substance Painter for texturing, and Unreal Engine 5 for environment creation. This project showcases my passion and skills in game art and level design. I am proud to share that this work earned me the Student of the Month award, recognizing my dedication and achievement in the field."
+              demoLink="https://www.youtube.com/watch?v=araogDyGxko"
             />
           </Col>
 
