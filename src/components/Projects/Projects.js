@@ -36,7 +36,7 @@ function Projects() {
               imgPath={bitsOfCode}      
               isBlog={false}
               title="Assassin's Creed game environment"
-              description="I have successfully remastered an Assassin's Creed game environment using Autodesk Maya for 3D modeling, Substance Painter for texturing, and Unreal Engine 5 for environment creation. This project showcases my passion and skills in game art and level design. I am proud to share that this work earned me the Student of the Month award, recognizing my dedication and achievement in the field."
+              description="Remastered an Assassin’s Creed environment using Maya for 3D modeling, Substance Painter for textures, and Unreal Engine 5 for realistic visuals. This project, inspired by the iconic game, won me the Student of the Month award for excellence in game art."
               demoLink="https://www.youtube.com/watch?v=araogDyGxko"
             />
           </Col>
@@ -45,10 +45,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Mystical Environment"
+              description="Crafted “Mahadev’s Mystical Environment” using Unreal Engine and Maya 3D, blending technical expertise and creativity. The project evokes mysticism and showcases seamless integration of industry-standard tools to create a visually immersive environment inspired by Mahadev’s legendary aura."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://www.youtube.com/watch?v=1cgsVqkmXtk"              
             />
           </Col>
 
@@ -56,10 +56,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Reflex Duel"
+              description="Reflex Duel is a fast-paced 2D game that tests your precision and timing skills. You play as a lone warrior facing off against a  AI opponent. The objective is simple: press the spacebar at the right moment to strike your enemy. But be warned—press too early, and you’ll miss, leaving yourself vulnerable to the AI’s deadly counterattack."
+              demoLink="https://rohangot.itch.io/reflex-duel"
             />
           </Col>
 
@@ -67,10 +66,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Interior design"
+              description="This concisely communicates the tools and workflow you used—3D modeling in Autodesk Maya and rendering in Unreal Engine—to achieve the final interior visualization. The project presentation is clean and visually appealing, ideal for a portfolio or gallery."
+              ghLink="https://rohangotpagar.artstation.com/projects/OGlVKb"
+              // demoLink="https://rohangotpagar.artstation.com/projects/OGlVKb" <--------Please include a demo link here
             />
           </Col>
 
