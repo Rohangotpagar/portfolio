@@ -11,20 +11,22 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Rohan Gotpagar </span>
             from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I’m a passionate Game Designer with expertise in Unity and Unreal Engine.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Skilled in 3D modelling (Maya) and texturing with Substance Painter.
+            I also create engaging UI/UX designs for intuitive player experiences.
+            Proficient in video editing with After Effects and Premiere Pro.
+            I love playing games, designing creative ideas, and travelling.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from desiging, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Guitar
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Make Music
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
