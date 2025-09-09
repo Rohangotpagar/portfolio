@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -14,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Rohan Gotpagar/PerplexityAI</h3>
+          <h3>Designed and Developed by Rohan Gotpagar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} RG</h3>
@@ -23,12 +22,12 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Rohangotpagar"
+                href="https://www.linkedin.com/in/rohangotpagar/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
