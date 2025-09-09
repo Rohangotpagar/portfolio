@@ -19,38 +19,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+  I’m a <b className="purple">passionate Game Designer</b> with expertise in 
+  <b className="purple"> Unity</b> and <b className="purple">Unreal Engine</b>, dedicated to creating engaging and immersive gaming experiences 🎮.
+  <br />
+  <br />
+  I specialize in 3D modeling using <b className="purple">Autodesk Maya</b>, as well as crafting detailed textures with 
+  <b className="purple"> Substance Painter</b> to bring environments and characters to life.
+  <br />
+  <br />
+  Beyond game development, I also excel in <b className="purple">UI/UX design</b>, 
+  where I focus on creating intuitive, user-friendly, and visually appealing interfaces that enhance player interaction and overall experience.
+  <br />
+  <br />
+  In addition, I have strong skills in video editing, using <b className="purple">Adobe After Effects</b> and 
+  <b className="purple"> Premiere Pro</b> to deliver polished, high-quality content and cinematic presentations.
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +51,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Rohangotpagar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +61,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Ronne771"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/rohangotpagar/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/rohangotpagar_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
