@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-           Hi Everyone, I am <span className="purple">Rohan Gotpagar</span> from{" "}
+            Hi Everyone, I am <span className="purple">Rohan Gotpagar</span> from{" "}
             <span className="purple">Pune, India.</span>
             <br />
             I’m a passionate Game Designer with expertise in Unity and Unreal Engine.
@@ -16,7 +16,8 @@ function AboutCard() {
             Skilled in 3D modelling (Maya) and texturing with Substance Painter. I also create engaging UI/UX designs for intuitive player experiences. Proficient in video editing with After Effects and Premiere Pro. I love playing games, designing creative ideas, and travelling.
           </p>
           <br />
-            Apart from coding, some other activities that I love to do!
+          <p>
+            Apart from designing, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -29,11 +30,10 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)", marginTop: "20px" }}>
+            "Design is not just how it looks and feels, but how it works"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Rohan</footer>
         </blockquote>
       </Card.Body>
     </Card>
