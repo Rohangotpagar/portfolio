@@ -1,46 +1,99 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+import {
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiArtstation } from "react-icons/si";
 
-function AboutCard() {
+function Home2() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Rohan Gotpagar </span>
-            from <span className="purple"> Pune, India.</span>
-            <br />
-            I’m a passionate Game Designer with expertise in Unity and Unreal Engine.
-            <br />
-            Skilled in 3D modelling (Maya) and texturing with Substance Painter.
-            I also create engaging UI/UX designs for intuitive player experiences.
-            Proficient in video editing with After Effects and Premiere Pro.
-            I love playing games, designing creative ideas, and travelling.
-            <br />
-            <br />
-            Apart from desiging, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Guitar
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Make Music
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Design is not just how it looks and feels,but how it works"{" "}
-          </p>
-          <footer className="blockquote-footer">Rohan</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              I’m a <b className="purple">passionate Game Designer</b> with expertise in 
+              <b className="purple"> Unity</b> and <b className="purple">Unreal Engine</b>, dedicated to creating engaging and immersive gaming experiences 🎮.
+              <br />
+              <br />
+              I specialize in 3D modeling using <b className="purple">Autodesk Maya</b>, as well as crafting detailed textures with 
+              <b className="purple"> Substance Painter</b> to bring environments and characters to life.
+              <br />
+              <br />
+              Beyond game development, I also excel in <b className="purple">UI/UX design</b>, 
+              where I focus on creating intuitive, user-friendly, and visually appealing interfaces that enhance player interaction and overall experience.
+              <br />
+              <br />
+              In addition, I have strong skills in video editing, using <b className="purple">Adobe After Effects</b> and 
+              <b className="purple"> Premiere Pro</b> to deliver polished, high-quality content and cinematic presentations.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://rohangotpagar.artstation.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiArtstation />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/Ronne771"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/rohangotpagar/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/rohangotpagar_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   );
 }
 
-export default AboutCard;
+export default Home2;
