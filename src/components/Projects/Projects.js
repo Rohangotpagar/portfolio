@@ -68,22 +68,12 @@ function Projects() {
               isBlog={false}
               title="Interior design"
               description="This concisely communicates the tools and workflow you used—3D modeling in Autodesk Maya and rendering in Unreal Engine—to achieve the final interior visualization. The project presentation is clean and visually appealing, ideal for a portfolio or gallery."
-              ghLink="https://rohangotpagar.artstation.com/projects/OGlVKb"
-              // demoLink="https://rohangotpagar.artstation.com/projects/OGlVKb" <--------Please include a demo link here
+              
+              demoLink="https://rohangotpagar.artstation.com/projects/OGlVKb"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

@@ -5,7 +5,6 @@ import {
   SiUnrealengine,
   SiAdobephotoshop,
   SiAdobeaftereffects,
-  SiNotion,
 } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 
@@ -26,9 +25,6 @@ function Techstack() {
       </Col>
       <Col xs={6} md={2} className="tech-icons">
         <SiAdobeaftereffects />
-      </Col>
-      <Col xs={6} md={2} className="tech-icons">
-        <SiNotion />
       </Col>
     </Row>
   );
